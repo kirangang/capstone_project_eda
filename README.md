@@ -55,11 +55,14 @@ Total number of columns: 32
     
 **2) Handling null values**
     - Null values in columns company and agent were replaced by 0.
+    
     - Null values in column country were replaced by 'others'.
+    
     - Null values in column children were replaced by the mean of the column.
     
 **3) Converting columns to appropriate data types**
     - Changed data type of children, company, agent to int type.
+    
     - Changed data type of reservation_status_date to date type.
     
 **4) Removing outliers**
@@ -67,6 +70,7 @@ Total number of columns: 32
     
 **5) Creating new columns**
     - Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
+    
     - Created new column total_people by adding adults+children+babies
 
 ## Exploratory Data Analysis
